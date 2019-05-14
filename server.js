@@ -14,6 +14,7 @@ mongoose.connect('mongodb://localhost:27017/jnodedb');
 */
 var ComfreePropertyListing = require('./api/models/ComfreePropertyModel');
 var ComfreeActiveOffers = require('./api/models/ComfreeActiveOffersModel');
+var ComfreeActiveEscrows = require('./api/models/ComfreeActiveEscrowsModel');
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
